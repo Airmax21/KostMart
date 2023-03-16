@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/navbar.css') ?>">
-    <title>Navbar</title>
+    <title><?= $judul_web ?></title>
 </head>
 
-<body class="bg-dark">
+<body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand title-navbar" href="<?php base_url() ?>">KostMart</a>
+            <a class="navbar-brand title-navbar ms-3" href="<?php base_url() ?>"><b>Kost</b>Mart</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,7 +30,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="#">Laundry</a></li>
                             <li><a class="dropdown-item" href="#">Product</a></li>
                         </ul>
@@ -39,13 +39,13 @@
                         <a class="nav-link">Contact Us</a>
                     </li>
                     <form class="d-flex ms-5" role="search">
-                        <input class=" me-2 search" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-secondary search" type="submit">Search</button>
+                        <input class="form-control mx-2 search bg-dark text-light form-control-sm" type="search" placeholder="Search" aria-label="Search">
                     </form>
                 </ul>
             </div>
         </div>
     </nav>
+    <?= $this->renderSection('isi_web') ?>
 </body>
 <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/bootstrap.bundle.js') ?>"></script>
 
