@@ -1,21 +1,21 @@
 <?php $this->load->view('navbar') ?>
 <style>
     td {
-        color: #82CD47;
+        color: #5653FE;
     }
 
     td.active {
         color: #ffffff;
-        background-color: #82CD47;
+        background-color: #5653FE;
     }
 </style>
 <div class="container-fluid vh-100">
     <div class="row">
         <div class="col-sm-3">
             <div class="container-fluid m-4">
-                <table class="table rounded" style="border: 2px solid;border-radius: 10px;border-color:  #82CD47; height: 60vh;">
+                <table class="table rounded" style="border: 2px solid;border-radius: 10px;border-color:  #5653FE; height: 60vh;">
                     <tr>
-                        <td class="align-middle" style="color: #82CD47;">
+                        <td class="align-middle" style="color: #5653FE;">
                             <h4>Kategori</h4>
                         </td>
                     </tr>

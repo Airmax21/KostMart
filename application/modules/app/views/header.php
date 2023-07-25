@@ -29,11 +29,6 @@
   gtag('config', 'G-WFSWE5V8W7');
 </script>
 <style>
-  body {
-    background-color: white;
-    background-image: url('<?= base_url() ?>assets/img/app/background.png');
-    background-repeat: repeat-y;
-  }
 </style>
 
 <body>
